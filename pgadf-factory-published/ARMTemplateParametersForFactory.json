@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "pgadf-factory-dev"
+		},
+		"AzureKeyVaultLS_properties_typeProperties_baseUrl": {
+			"value": "https://pgadf-key-dev.vault.azure.net/"
+		},
+		"StorageLS_properties_typeProperties_connectionString_secretName": {
+			"value": "storage-access-key"
+		},
+		"EveryDay2359_properties_MoveFiles_parameters_SourceStore_Location": {
+			"value": "sink"
+		},
+		"EveryDay2359_properties_MoveFiles_parameters_SourceStore_Directory": {
+			"value": "/"
+		},
+		"EveryDay2359_properties_MoveFiles_parameters_DestinationStore_Location": {
+			"value": "staging"
+		},
+		"EveryDay2359_properties_MoveFiles_parameters_DestinationStore_Directory": {
+			"value": "/"
+		}
+	}
+}
